@@ -17,8 +17,16 @@ To create a lein app:
 
 `lein new app hellolein`
 
-then to run it:
+then to run it (from that dir):
 
 `lein run`
 
+To create a distributable jar:
+
+`lein ubeerjar`
+
+The output will be in the target dir.
+
+# Useful References:
+Clojure Cheatsheet: https://clojure.org/api/cheatsheet
 
